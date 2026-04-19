@@ -8,5 +8,5 @@ PORT = 8000
 Handler = http.server.SimpleHTTPRequestHandler
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
-    print("Serving at portes", PORT)
+    print("Serving at porteis", PORT)
     httpd.serve_forever()
