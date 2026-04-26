@@ -23,3 +23,5 @@ jobs:
             --exclude='.github' \
             --exclude='*.md' \
             ./ andreas@kubenode1:/opt/configs/
+         run: ssh andreas@kubenode1 'date >> /opt/configs/synced.txt'
+         
