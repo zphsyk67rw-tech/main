@@ -14,7 +14,7 @@ jobs:
       - name: Checkout sync branch
         uses: actions/checkout@v4
         with:
-          ref: sync
+          ref: zphsyk67rw-tech/sync
       
       - name: Sync files to kubenode1
         run: |
