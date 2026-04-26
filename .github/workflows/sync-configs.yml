@@ -3,7 +3,7 @@ name: Sync Configs to kubenode1
 on:
   push:
     branches:
-      - sync
+      - zphsyk67rw-tech/sync
   workflow_dispatch:
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
     
     steps:
       - name: Checkout sync branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: zphsyk67rw-tech/sync
       
