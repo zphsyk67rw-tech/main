@@ -3,7 +3,7 @@ name: Sync Configs to kubenode1
 on:
   push:
     branches:
-      - sync
+      - zphsyk67rw-tech/sync
   workflow_dispatch:
 
 jobs:
