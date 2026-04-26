@@ -32,4 +32,5 @@ jobs:
       - name: Write timestamp to remote file
         run: |
           ssh andreas@kubenode1 'date >> /opt/configs/synced.txt'
+        
          
