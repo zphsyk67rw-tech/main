@@ -12,7 +12,7 @@ jobs:
     
     steps:
       - name: Checkout sync branch
-        uses: actions/checkout@latest
+        uses: actions/checkout@v5
         with:
           ref: zphsyk67rw-tech/sync
       
