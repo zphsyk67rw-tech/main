@@ -5,7 +5,7 @@ on:
 
 jobs:
   hello:
-    runs-on: kubemaster
+    runs-on: ubuntu-latest
     steps:
       - name: Say Hello
         run: echo "Hello World Nochmal zu Dir"
